@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blog UX/UI</title>
+  <link rel="icon" href="./img/logo (2).gif" />
+  <link rel="stylesheet" href="./styles/style.css" />
+</head>
+<body>
+    <div class="contenedor">
+  
+      <header class="header">
+        <h1 class="logo">✨ SENA</h1>
+        <nav>
+          <ul class="nav">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="./pages/teoria.html">Teoría UX/UI</a></li>   
+           
+          </ul>
+        </nav>
+      </header>
+  
+      <section class="hero" id="inicio">
+        <img src="img/logo (2).gif" alt="Diseño UX/UI" class="hero-img" />
+        <div class="hero-texto">
+          <h2>Diseño con intención</h2>
+          <p>Explora la magia del UX/UI con teoría clara, ejemplos visuales y animaciones interactivas. 🌈</p>
+        </div>
+      </section>
+  
+      <section class="pasos-uxui" id="pasos">
+        <h2>📌 Pasos para crear un diseño UX/UI</h2>
+        <div class="cards-pasos">
+
+    <!-- Card 1 -->
+    <div class="card" onclick="abrirModal('modal1')">
+      <h3>🔍 1. Investigación (UX Research)</h3>
+      <p>Conocer al usuario y su contexto.</p>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="card" onclick="abrirModal('modal2')">
+      <h3>🧠 2. Definición del Problema y Objetivos</h3>
+      <p>Clarificar necesidades y metas del proyecto.</p>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="card" onclick="abrirModal('modal3')">
+      <h3>🗺️ 3. Arquitectura de la Información</h3>
+      <p>Organizar contenido estratégicamente.</p>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="card" onclick="abrirModal('modal4')">
+      <h3>✏️ 4. Wireframes (Bocetos)</h3>
+      <p>Diseñar la estructura sin distracciones.</p>
+    </div>
+
+    <!-- Card 5 -->
+    <div class="card" onclick="abrirModal('modal5')">
+      <h3>🎨 5. Diseño de Interfaz (UI Design)</h3>
+      <p>Aplicar estilo visual y marca.</p>
+    </div>
+
+    <!-- Card 6 -->
+    <div class="card" onclick="abrirModal('modal6')">
+      <h3>🤖 6. Prototipado Interactivo</h3>
+      <p>Simular la experiencia final.</p>
+    </div>
+
+    <!-- Card 7 -->
+    <div class="card" onclick="abrirModal('modal7')">
+      <h3>🧪 7. Pruebas de Usabilidad</h3>
+      <p>Evaluar el diseño con usuarios.</p>
+    </div>
+
+    <!-- Card 8 -->
+    <div class="card" onclick="abrirModal('modal8')">
+      <h3>🧱 8. Entrega a Desarrollo</h3>
+      <p>Pasar diseño al equipo dev.</p>
+    </div>
+
+    <!-- Card 9 -->
+    <div class="card" onclick="abrirModal('modal9')">
+      <h3>🔁 9. Iteración Continua</h3>
+      <p>Mejorar el producto con datos reales.</p>
+    </div>
+  </div>
+</section>
+          
+        </div>
+      </section>
+      
+      <!-- Modal 1 -->
+      <div class="modal" id="modal1">
+        <div class="modal-contenido">
+          <span class="cerrar" onclick="cerrarModal('modal1')">&times;</span>
+          <img class="modal-img" src="img/logo (53).png" alt="Investigación UX" />
+          <div class="modal-texto">
+            <p>Objetivo: Conocer a fondo al usuario y el contexto del producto.</p>
+            <ul>
+              <li>Entrevistas, encuestas y pruebas de usabilidad.</li>
+              <li>Benchmarking (análisis de la competencia).</li>
+              <li>Creación de personas (perfiles ficticios que representan a tus usuarios).</li>
+              <li>Mapa de empatía y user journey.</li>
+            </ul>            
+          </div>
+        </div>
+      </div>
+
+       <!-- Modal 2 -->
+       <div class="modal" id="modal2">
+        <div class="modal-contenido">
+          <span class="cerrar" onclick="cerrarModal('modal2')">&times;</span>
+          <img class="modal-img" src="img/logo (55).png" alt="Diseño UX" />
+          <div class="modal-texto">
+            <p>Definir el problema y objetivos del proyecto.</p>
+            <ul>
+              <li>Identificar las necesidades y expectativas del usuario.</li>
+              <li>Establecer metas claras y medibles.</li>
+              <li>Crear un plan de acción para alcanzar los objetivos.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      
+      <!-- Modal 3 -->
+      <div class="modal" id="modal3">
+        <div class="modal-contenido">
+          <span class="cerrar" onclick="cerrarModal('modal3')">&times;</span>
+          
+          <img class="modal-img" src="img/logo (54).png" alt="Arquitectura UX" />
+                <div class="modal-texto">
+                    <p>Organizamos jerárquicamente el contenido para que el usuario pueda navegar con facilidad y lógica.</p>
+                    <ul>
+                    <li>Organización jerárquica del contenido.</li>
+                    <li>Guía de estilo para la interfaz.</li>
+                    <li>Diseño de iconos y gráficos.</li>
+                    <li>Flujos de usuario</li>
+                    <li>Creación de sitemaps (mapas de navegación)</li>
+                    </ul>
+                </div>
+        </div>
+      </div>
+
+     
+      <!-- Modal 4 -->
+      <div class="modal" id="modal4">
+        <div class="modal-contenido">
+          <span class="cerrar" onclick="cerrarModal('modal4')">&times;</span>
+          <img class="modal-img" src="img/Wireframes.png" alt="Prototipado UX" />
+          <div class="modal-texto">
+            <p>Objetivo: Crear prototipos interactivos para probar la usabilidad.</p>
+            <ul>
+              <li>Bocetos a mano o digitales.</li>
+              <li>Versiones de baja fidelidad para iterar rápido.</li>
+              <li>Validación temprana con usuarios o stakeholders.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal 5 -->
+      <div class="modal" id="modal5">
+        <div class="modal-contenido">
+          <span class="cerrar" onclick="cerrarModal('modal5')">&times;</span>
+          <img class="modal-img" src="img/ui.gif" alt="Prototipado UX" />
+          <div class="modal-texto">
+            <p>Objetivo: Crear prototipos interactivos para probar la usabilidad.</p>
+            <ul>
+              <li>Elección de tipografía, colores y componentes.</li>
+              <li>Diseño visual coherente con la identidad de marca.</li>
+              <li>Uso de sistemas de diseño o guías de estilo.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+
+      <!-- Modal 6 -->
+      <div class="modal" id="modal6">
+        <div class="modal-contenido">
+          <span class="cerrar" onclick="cerrarModal('modal6')">&times;</span>
+          <img class="modal-img" src="img/Prototipado Interactivo.png" alt="Pruebas UX" />
+          <div class="modal-texto">
+            <p>Objetivo: Simular la navegación y la experiencia de uso.</p>
+            <ul>
+              <li>Herramientas como Figma, Adobe XD o ProtoPie.</li>
+              <li>Prototipos de media o alta fidelidad.</li>
+              <li>Flujo de pantallas y microinteracciones.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Modal 7 -->
+      <div class="modal" id="modal7">
+        <div class="modal-contenido">
+          <span class="cerrar" onclick="cerrarModal('modal7')">&times;</span>   
+          <img class="modal-img" src="img/usabilidad.png" alt="Entrega UX" />
+          <div class="modal-texto">
+            <p>Objetivo: Preparar y entregar el diseño al equipo de desarrollo.</p>
+            <ul>
+              <li>Documentación detallada del diseño.</li>
+              <li>Pruebas con usuarios reales.</li>
+              <li>Guías de estilo y especificaciones claras.</li>
+              <li>Entrega de assets y recursos necesarios.</li>
+            </ul>
+          </div>
+        </div>
+      </div>                
+
+      <!-- Modal 8 -->
+      <div class="modal" id="modal8">
+        <div class="modal-contenido">
+          <span class="cerrar" onclick="cerrarModal('modal8')">&times;</span>
+          <img class="modal-img" src="img/Entrega a Desarrollo.png" alt="Iteración UX" />
+          <div class="modal-texto">
+            <p>Objetivo: Asegurar que el diseño se implemente correctamente..</p>
+            <ul>
+              <li>Análisis de métricas y comportamiento de usuarios.</li>
+              <li>Implementación de mejoras basadas en datos.</li>
+              <li>Pruebas A/B y optimización continua.</li>
+              <li>Colaboración constante con el equipo de desarrollo. pasar a codigo</li>
+                
+
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Modal 9 -->
+      <div class="modal" id="modal9">
+        <div class="modal-contenido">
+          <span class="cerrar" onclick="cerrarModal('modal9')">&times;</span>   
+          <img class="modal-img" src="img/Iteración Continua.png" alt="Iteración UX" />
+          <div class="modal-texto">
+            <p>Objetivo: Mantener y mejorar el producto con feedback continuo.</p>
+            <ul>
+              <li>Monitoreo de métricas y KPIs.</li>
+              <li>Implementación de mejoras iterativas.</li>
+              <li>Optimización basada en datos de uso.</li>
+            </ul>
+          </div>
+        </div>
+      </div>        
+         
+  
+      <footer id="contacto">
+        <p>✨ Hecho por Sara Cristina Cano Sierra | Lina Paola Pulido | Luis Fernando Barbosa</p>
+       
+      </footer>
+  
+    </div> 
+    <a href="https://www.figma.com" target="_blank" class="figma-button">
+      <img src="img/figma.png" alt="Figma" class="figma-logo">
+    </a>
+    <script src="./scripts/scripts.js"></script>
+  </body>
+  
+</html>
